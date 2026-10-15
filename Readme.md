@@ -18,6 +18,6 @@ If a route's cost rises more than 10% above both baselines, the script triggers 
 The LLM temperature was strictly set to `0.0`. I ran the script three consecutive times on the same dataset, and a diff check confirmed the output CSVs were 100% identical across all runs.
 
 ### 4. Cost & Token Log
-- **Model Used:** `llama3-70b-8192` (via Groq Free Tier API)
+- **Model Used:** `openai/gpt-oss-20b` (via Groq Free Tier API)
 - **Total LLM Calls:** 7 API calls (only spiked routes were queried to save resources).
 - **Cost:** $0.00 (Groq free tier).
